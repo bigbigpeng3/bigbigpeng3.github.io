@@ -1,19 +1,19 @@
-# 主题文档 - mermaid Shortcode
+# Theme Documentation - mermaid Shortcode
 
 
 {{< version 0.2.11 changed >}}
 
-`mermaid` shortcode 使用 [Mermaid](https://mermaidjs.github.io/) 库提供绘制图表和流程图的功能.
+The `mermaid` shortcode supports diagrams in Hugo with [Mermaid](https://mermaidjs.github.io/) library.
 
 <!--more-->
 
-[mermaid](https://mermaidjs.github.io/) 是一个可以帮助你在文章中绘制图表和流程图的库, 类似 Markdown 的语法.
+**Mermaid** is a library helping you to generate diagram and flowcharts from text, in a similar manner as Markdown.
 
-只需将你的 mermaid 代码插入 `mermaid` shortcode 中即可.
+Just insert your mermaid code in the `mermaid` shortcode and that’s it.
 
-## 流程图 {#flowchart}
+## Flowchart {#flowchart}
 
-一个 **流程图** `mermaid` 示例:
+Example **flowchart** `mermaid` input:
 
 ```markdown
 {{</* mermaid */>}}
@@ -25,7 +25,7 @@ graph LR;
 {{</* /mermaid */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< mermaid >}}
 graph LR;
@@ -35,9 +35,9 @@ graph LR;
     C -->|Two| E[Result two]
 {{< /mermaid >}}
 
-## 时序图 {#sequence-diagram}
+## Sequence Diagram {#sequence-diagram}
 
-一个 **时序图** `mermaid` 示例:
+Example **sequence diagram** `mermaid` input:
 
 ```markdown
 {{</* mermaid */>}}
@@ -55,7 +55,7 @@ sequenceDiagram
 {{</* /mermaid */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< mermaid >}}
 sequenceDiagram
@@ -71,9 +71,9 @@ sequenceDiagram
     Bob-->John: Jolly good!
 {{< /mermaid >}}
 
-## 甘特图 {#gantt}
+## Gantt {#gantt}
 
-一个 **甘特图** `mermaid` 示例:
+Example **Gantt** `mermaid` input:
 
 ```markdown
 {{</* mermaid */>}}
@@ -90,7 +90,7 @@ Future task2              :         des4, after des3, 5d
 {{</* /mermaid */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< mermaid >}}
 gantt
@@ -105,9 +105,9 @@ Future task               :         des3, after des2, 5d
 Future task2              :         des4, after des3, 5d
 {{< /mermaid >}}
 
-## 类图 {#class-diagram}
+## Class Diagram {#class-diagram}
 
-一个 **类图** `mermaid` 示例:
+Example **class diagram** `mermaid` input:
 
 ```markdown
 {{</* mermaid */>}}
@@ -135,7 +135,7 @@ classDiagram
 {{</* /mermaid */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< mermaid >}}
 classDiagram
@@ -161,9 +161,9 @@ classDiagram
     }
 {{< /mermaid >}}
 
-## 状态图 {#state-diagram}
+## State Diagram {#state-diagram}
 
-一个 **状态图** `mermaid` 示例:
+Example **state diagram** `mermaid` input:
 
 ```markdown
 {{</* mermaid */>}}
@@ -177,7 +177,7 @@ stateDiagram-v2
 {{</* /mermaid */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< mermaid >}}
 stateDiagram-v2
@@ -189,9 +189,9 @@ stateDiagram-v2
     Crash --> [*]
 {{< /mermaid >}}
 
-## Git 图 {#git-graph}
+## Git Graph {#git-graph}
 
-一个 **Git 图** `mermaid` 示例:
+Example **git graph** `mermaid` input:
 
 ```markdown
 {{</* mermaid */>}}
@@ -209,7 +209,7 @@ gitGraph
 {{</* /mermaid */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< mermaid >}}
 gitGraph
@@ -225,9 +225,9 @@ gitGraph
     commit
 {{< /mermaid >}}
 
-## 实体关系图 {#entity-relationship-diagram}
+## Entity Relationship Diagram {#entity-relationship-diagram}
 
-一个 **实体关系图** `mermaid` 示例:
+Example **entity-relationship diagram** `mermaid` input:
 
 ```markdown
 {{</* mermaid */>}}
@@ -238,7 +238,7 @@ erDiagram
 {{</* /mermaid */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< mermaid >}}
 erDiagram
@@ -247,9 +247,9 @@ erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 {{< /mermaid >}}
 
-## 用户体验旅程图 {#user-journey}
+## User Journey {#user-journey}
 
-一个 **用户体验旅程图** `mermaid` 示例:
+Example **user journey** `mermaid` input:
 
 ```markdown
 {{</* mermaid */>}}
@@ -265,7 +265,7 @@ journey
 {{</* /mermaid */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< mermaid >}}
 journey
@@ -279,9 +279,9 @@ journey
       Sit down: 5: Me
 {{< /mermaid >}}
 
-## 饼图 {#pie}
+## Pie Chart {#pie-chart}
 
-一个 **饼图** `mermaid` 示例:
+Example **pie chart** `mermaid` input:
 
 ```markdown
 {{</* mermaid */>}}
@@ -292,7 +292,7 @@ pie
 {{</* /mermaid */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< mermaid >}}
 pie
@@ -301,9 +301,9 @@ pie
     "Rats" : 15
 {{< /mermaid >}}
 
-## 依赖图 {#requirement-diagram}
+## Requirement Diagram {#requirement-diagram}
 
-一个 **依赖图** `mermaid` 示例:
+Example **requirement diagram** `mermaid` input:
 
 ```markdown
 {{</* mermaid */>}}
@@ -324,7 +324,7 @@ test_entity - satisfies -> test_req
 {{</* /mermaid */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< mermaid >}}
 requirementDiagram

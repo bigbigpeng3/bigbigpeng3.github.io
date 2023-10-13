@@ -1,7 +1,7 @@
-# 主题文档 - 扩展 Shortcodes
+# Theme Documentation - Extended Shortcodes
 
 
-**LoveIt** 主题在 Hugo 内置的 shortcode 的基础上提供多个扩展的 shortcode.
+**LoveIt** theme provides multiple shortcodes on top of built-in ones in Hugo.
 
 <!--more-->
 
@@ -10,19 +10,20 @@
 {{< version 0.2.0 changed >}}
 
 {{< admonition >}}
-Hugo **extended** 版本对于 `style` shortcode 是必需的.
+Hugo **extended** version is necessary for `style` shortcode.
 {{< /admonition >}}
 
-`style` shortcode 用来在你的文章中插入自定义样式.
+`style` is a shortcode to insert custom style in your post.
 
-`style` shortcode 有两个位置参数.
+The `style` shortcode has two positional parameters.
 
-第一个参数是自定义样式的内容. 它支持 [:(fab fa-sass fa-fw): SASS](https://sass-lang.com/documentation/style-rules/declarations#nesting) 中的嵌套语法,
-并且 `&` 指代这个父元素.
+The **first** one is the custom style content,
+which supports nesting syntax in [:(fab fa-sass fa-fw): SASS](https://sass-lang.com/documentation/style-rules/declarations#nesting)
+and `&` referring to this parent HTML element.
 
-第二个参数是包裹你要更改样式的内容的 HTML 标签, 默认值是 `div`.
+And the **second** one is the tag name of the HTML element wrapping the content you want to change style, and whose default value is `div`.
 
-一个 `style` 示例:
+Example `style` input:
 
 ```markdown
 {{</* style "text-align:right; strong{color:#00b1ff;}" */>}}
@@ -30,7 +31,7 @@ This is a **right-aligned** paragraph.
 {{</* /style */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< style "text-align:right; strong{color:#00b1ff;}" >}}
 This is a **right-aligned** paragraph.
@@ -40,66 +41,65 @@ This is a **right-aligned** paragraph.
 
 {{< version 0.2.0 >}}
 
-`link` shortcode 是 [Markdown 链接语法](../basic-markdown-syntax#links) 的替代.
-`link` shortcode 可以提供一些其它的功能并且可以在代码块中使用.
+`link` shortcode is an alternative to [Markdown link syntax](../basic-markdown-syntax#links). `link` shortcode can provide some other features and can be used in code blocks.
 
-{{< version 0.2.10 >}} 支持[本地资源引用](../theme-documentation-content#contents-organization)的完整用法.
+{{< version 0.2.10 >}} The complete usage of [local resource references](../theme-documentation-content#contents-organization) is supported.
 
-`link` shortcode 有以下命名参数:
+The `link` shortcode has the following named parameters:
 
-* **href** *[必需]* (**第一个**位置参数)
+* **href** *[required]* (**first** positional parameter)
 
-    链接的目标.
+    Destination of the link.
 
-* **content** *[可选]* (**第二个**位置参数)
+* **content** *[optional]* (**second** positional parameter)
 
-    链接的内容, 默认值是 **href** 参数的值.
+    Content of the link, default value is the value of **href** parameter.
 
-    *支持 Markdown 或者 HTML 格式.*
+    *Markdown or HTML format is supported.*
 
-* **title** *[可选]* (**第三个**位置参数)
+* **title** *[optional]* (**third** positional parameter)
 
-    HTML `a` 标签 的 `title` 属性, 当悬停在链接上会显示的提示.
+    `title` attribute of the HTML `a` tag, which will be shown when hovering on the link.
 
-* **rel** *[可选]*
+* **class** *[optional]*
 
-    HTML `a` 标签 的 `rel` 补充属性.
+    `class` attribute of the HTML `a` tag.
 
-* **class** *[可选]*
+* **rel** *[optional]*
 
-    HTML `a` 标签 的 `class` 属性.
+    Additional `rel` attributes of the HTML `a` tag.
 
-一个 `link` 示例:
+Example `link` input:
 
 ```markdown
 {{</* link "https://assemble.io" */>}}
-或者
+Or
 {{</* link href="https://assemble.io" */>}}
 
 {{</* link "mailto:contact@revolunet.com" */>}}
-或者
+Or
 {{</* link href="mailto:contact@revolunet.com" */>}}
 
 {{</* link "https://assemble.io" Assemble */>}}
-或者
+Or
 {{</* link href="https://assemble.io" content=Assemble */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 * {{< link "https://assemble.io" >}}
 * {{< link "mailto:contact@revolunet.com" >}}
 * {{< link "https://assemble.io" Assemble >}}
 
-一个带有标题的 `link` 示例:
+Example `link` input with a title:
 
 ```markdown
 {{</* link "https://github.com/upstage/" Upstage "Visit Upstage!" */>}}
-或者
+Or
 {{</* link href="https://github.com/upstage/" content=Upstage title="Visit Upstage!" */>}}
 ```
 
-呈现的输出效果如下 (将鼠标悬停在链接上，会有一行提示):
+The rendered output looks like this (hover over the link, there should be a tooltip):
 
 {{< link "https://github.com/upstage/" Upstage "Visit Upstage!" >}}
 
@@ -107,208 +107,207 @@ This is a **right-aligned** paragraph.
 
 {{< version 0.2.0 changed >}}
 
-`image` shortcode 是 [`figure` shortcode](../theme-documentation-built-in-shortcodes#figure) 的替代. `image` shortcode 可以充分利用 [lazysizes](https://github.com/aFarkas/lazysizes) 和 [lightGallery](https://github.com/sachinchoolur/lightgallery) 两个依赖库.
+`image` shortcode is an alternative to [`figure` shortcode](../theme-documentation-built-in-shortcodes#figure). `image` shortcode can take full advantage of the dependent libraries of [lazysizes](https://github.com/aFarkas/lazysizes) and [lightGallery](https://github.com/sachinchoolur/lightgallery).
 
-{{< version 0.2.10 >}} 支持[本地资源引用](../theme-documentation-content#contents-organization)的完整用法.
+{{< version 0.2.10 >}} The complete usage of [local resource references](../theme-documentation-content#contents-organization) is supported.
 
-`image` shortcode 有以下命名参数:
+The `image` shortcode has the following named parameters:
 
-* **src** *[必需]* (**第一个**位置参数)
+* **src** *[required]* (**first** positional parameter)
 
-    图片的 URL.
+    URL of the image to be displayed.
 
-* **alt** *[可选]* (**第二个**位置参数)
+* **alt** *[optional]* (**second** positional parameter)
 
-    图片无法显示时的替代文本, 默认值是 **src** 参数的值.
+    Alternate text for the image if the image cannot be displayed, default value is the value of **src** parameter.
 
-    *支持 Markdown 或者 HTML 格式.*
+    *Markdown or HTML format is supported.*
 
-* **caption** *[可选]* (**第三个**位置参数)
+* **caption** *[optional]* (**third** positional parameter)
 
-    图片标题.
+    Image caption.
 
-    *支持 Markdown 或者 HTML 格式.*
+    *Markdown or HTML format is supported.*
 
-* **title** *[可选]*
+* **title** *[optional]*
 
-    当悬停在图片上会显示的提示.
+    Image title that will be shown when hovering on the image.
 
-* **class** *[可选]*
+* **class** *[optional]*
 
-    HTML `figure` 标签的 `class` 属性.
+    `class` attribute of the HTML `figure` tag.
 
-* **src_s** *[可选]*
+* **src_s** *[optional]*
 
-    图片缩略图的 URL, 用在画廊模式中, 默认值是 **src** 参数的值.
+    URL of the image thumbnail, used for lightgallery, default value is the value of **src** parameter.
 
-* **src_l** *[可选]*
+* **src_l** *[optional]*
 
-    高清图片的 URL, 用在画廊模式中, 默认值是 **src** 参数的值.
+    URL of the HD image, used for lightgallery, default value is the value of **src** parameter.
 
-* **height** *[可选]*
+* **height** *[optional]*
 
-    图片的 `height` 属性.
+    `height` attribute of the image.
 
-* **width** *[可选]*
+* **width** *[optional]*
 
-    图片的 `width` 属性.
+    `width` attribute of the image.
 
-* **linked** *[可选]*
+* **linked** *[optional]*
 
-    图片是否需要被链接, 默认值是 `true`.
+    Whether the image needs to be hyperlinked, default value is `true`.
 
-* **rel** *[可选]*
+* **rel** *[optional]*
 
-    HTML `a` 标签 的 `rel` 补充属性, 仅在 **linked** 属性设置成 `true` 时有效.
+    Additional `rel` attributes of the HTML `a` tag, if **linked** parameter is set to `true`.
 
-一个 `image` 示例:
+Example `image` input:
 
 ```markdown
 {{</* image src="/images/lighthouse.jpg" caption="Lighthouse (`image`)" src_s="/images/lighthouse-small.jpg" src_l="/images/lighthouse-large.jpg" */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< image src="/images/lighthouse.jpg" caption="Lighthouse (`image`)" src_s="/images/lighthouse-small.jpg" src_l="/images/lighthouse-large.jpg" >}}
 
 ## 4 admonition
 
-`admonition` shortcode 支持 **12** 种 帮助你在页面中插入提示的横幅.
+The `admonition` shortcode supports **12** types of banners to help you put notice in your page.
 
-*支持 Markdown 或者 HTML 格式.*
+*Markdown or HTML format in the content is supported.*
 
 {{< admonition >}}
-一个 **注意** 横幅
+A **note** banner
 {{< /admonition >}}
 
 {{< admonition abstract >}}
-一个 **摘要** 横幅
+An **abstract** banner
 {{< /admonition >}}
 
 {{< admonition info >}}
-一个 **信息** 横幅
+A **info** banner
 {{< /admonition >}}
 
 {{< admonition tip >}}
-一个 **技巧** 横幅
+A **tip** banner
 {{< /admonition >}}
 
 {{< admonition success >}}
-一个 **成功** 横幅
+A **success** banner
 {{< /admonition >}}
 
 {{< admonition question >}}
-一个 **问题** 横幅
+A **question** banner
 {{< /admonition >}}
 
 {{< admonition warning >}}
-一个 **警告** 横幅
+A **warning** banner
 {{< /admonition >}}
 
 {{< admonition failure >}}
-一个 **失败** 横幅
+A **failure** banner
 {{< /admonition >}}
 
 {{< admonition danger >}}
-一个 **危险** 横幅
+A **danger** banner
 {{< /admonition >}}
 
 {{< admonition bug >}}
-一个 **Bug** 横幅
+A **bug** banner
 {{< /admonition >}}
 
 {{< admonition example >}}
-一个 **示例** 横幅
+An **example** banner
 {{< /admonition >}}
 
 {{< admonition quote >}}
-一个 **引用** 横幅
+A **quote** banner
 {{< /admonition >}}
 
-`admonition` shortcode 有以下命名参数:
+The `admonition` shortcode has the following named parameters:
 
-* **type** *[可选]* (**第一个**位置参数)
+* **type** *[optional]* (**first** positional parameter)
 
-    `admonition` 横幅的类型, 默认值是 `note`.
+    Type of the `admonition` banner, default value is `note`.
 
-* **title** *[可选]* (**第二个**位置参数)
+* **title** *[optional]* (**second** positional parameter)
 
-    `admonition` 横幅的标题, 默认值是 **type** 参数的值.
+    Title of the `admonition` banner, default value is the value of **type** parameter.
 
-* **open** *[可选]* (**第三个**位置参数) {{< version 0.2.0 changed >}}
+* **open** *[optional]* (**third** positional parameter) {{< version 0.2.0 changed >}}
 
-    横幅内容是否默认展开, 默认值是 `true`.
+    Whether the content will be expandable by default, default value is `true`.
 
-一个 `admonition` 示例:
+Example `admonition` input:
 
 ```markdown
 {{</* admonition type=tip title="This is a tip" open=false */>}}
-一个 **技巧** 横幅
+A **tip** banner
 {{</* /admonition */>}}
-或者
+Or
 {{</* admonition tip "This is a tip" false */>}}
-一个 **技巧** 横幅
+A **tip** banner
 {{</* /admonition */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
 {{< admonition tip "This is a tip" false >}}
-一个 **技巧** 横幅
+A **tip** banner
 {{< /admonition >}}
 
 ## 5 mermaid
 
-`mermaid` shortcode 使用 [Mermaid](https://mermaidjs.github.io/) 库提供绘制图表和流程图的功能.
+The `mermaid` shortcode supports diagrams in Hugo with [Mermaid](https://mermaidjs.github.io/) library.
 
-完整文档请查看页面 [主题文档 - mermaid Shortcode](../theme-documentation-mermaid-shortcode).
+The full documentation is provided in [Theme Documentation - mermaid Shortcode](../theme-documentation-mermaid-shortcode).
 
 ## 6 echarts
 
-`echarts` shortcode 使用 [ECharts](https://echarts.apache.org/) 库提供数据可视化的功能.
+The `echarts` shortcode supports data visualization in Hugo with [ECharts](https://echarts.apache.org/) library.
 
-完整文档请查看页面 [主题文档 - echarts Shortcode](../theme-documentation-echarts-shortcode).
+The full documentation is provided in [Theme Documentation - echarts Shortcode](../theme-documentation-echarts-shortcode).
 
 ## 7 mapbox
 
 {{< version 0.2.0 >}}
 
-`mapbox` shortcode 使用 [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js) 库提供互动式地图的功能.
+The `mapbox` shortcode supports interactive maps in Hugo with [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js) library.
 
-完整文档请查看页面 [主题文档 - mapbox Shortcode](../theme-documentation-mapbox-shortcode).
+The full documentation is provided in [Theme Documentation - mapbox Shortcode](../theme-documentation-mapbox-shortcode).
 
 ## 8 music
 
-`music` shortcode 基于 [APlayer](https://github.com/MoePlayer/APlayer) 和 [MetingJS](https://github.com/metowolf/MetingJS) 库提供了一个内嵌的响应式音乐播放器.
+The `music` shortcode embeds a responsive music player based on [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS) library.
 
-完整文档请查看页面 [主题文档 - music Shortcode](../theme-documentation-music-shortcode).
+The full documentation is provided in [Theme Documentation - music Shortcode](../theme-documentation-music-shortcode).
 
 ## 9 bilibili
 
 {{< version 0.2.0 changed >}}
 
-`bilibili` shortcode 提供了一个内嵌的用来播放 bilibili 视频的响应式播放器.
+The `bilibili` shortcode embeds a responsive video player for bilibili videos.
 
-完整文档请查看页面 [主题文档 - bilibili Shortcode](../theme-documentation-bilibili-shortcode).
+The full documentation is provided in [Theme Documentation - bilibili Shortcode](../theme-documentation-bilibili-shortcode).
 
 ## 10 typeit
 
-`typeit` shortcode 基于 [TypeIt](https://typeitjs.com/) 库提供了打字动画.
+The `typeit` shortcode provides typing animation based on [TypeIt](https://typeitjs.com/) library.
 
-完整文档请查看页面 [主题文档 - typeit Shortcode](../theme-documentation-typeit-shortcode).
+The full documentation is provided in [Theme Documentation - typeit Shortcode](../theme-documentation-typeit-shortcode).
 
 ## 11 script
 
 {{< version 0.2.8 >}}
 
-`script` shortcode 用来在你的文章中插入 **:(fab fa-js fa-fw): Javascript** 脚本.
+`script` is a shortcode to insert custom **:(fab fa-js fa-fw): Javascript** in your post.
 
 {{< admonition >}}
-脚本内容可以保证在所有的第三方库加载之后按顺序执行.
-所以你可以自由地使用第三方库.
+The script content can be guaranteed to be executed in order after all third-party libraries are loaded. So you are free to use third-party libraries.
 {{< /admonition >}}
 
-一个 `script` 示例:
+Example `script` input:
 
 ```markdown
 {{</* script */>}}
@@ -316,7 +315,7 @@ console.log('Hello LoveIt!');
 {{</* /script */>}}
 ```
 
-你可以在开发者工具的控制台中看到输出.
+You can see the output in the console of the developer tool.
 
 {{< script >}}
 console.log('Hello LoveIt!');
@@ -326,73 +325,79 @@ console.log('Hello LoveIt!');
 
 {{< version 0.2.11 >}}
 
-`raw` shortcode 用来在你的文章中插入原始 **:(fab fa-html5 fa-fw): HTML** 内容.
+`raw` is a shortcode to insert raw **:(fab fa-html5 fa-fw): HTML** content in your post.
+This is useful when you want to include some Markdown content to **avoid being rendered or escaped** by Hugo.
 
-一个 `raw` 示例:
+Example `raw` input:
 
 ```markdown
-行内公式: {{</* raw */>}}\(\mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}+\mathbf{E}_{2}+\mathbf{E}_{3}+\cdots\){{</* /raw */>}}
+Inline Formula: {{</* raw */>}}\(\mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}+\mathbf{E}_{2}+\mathbf{E}_{3}+\cdots\){{</* /raw */>}}
 
-公式块:
+Block Formula:
 
 {{</* raw */>}}
 \[ a=b+c \\ d+e=f \]
 {{</* /raw */>}}
 
-原始的带有 Markdown 语法的内容: {{</* raw */>}}**Hello**{{</* /raw */>}}
+Raw content using Markdown syntax: {{</* raw */>}}**Hello**{{</* /raw */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
-行内公式: {{< raw >}}\(\mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}+\mathbf{E}_{2}+\mathbf{E}_{3}+\cdots\){{< /raw >}}
+Inline Formula: {{< raw >}}\(\mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}+\mathbf{E}_{2}+\mathbf{E}_{3}+\cdots\){{< /raw >}}
 
-公式块:
+Block Formula:
 
 {{< raw>}}
 \[ a=b+c \\ d+e=f \]
 {{< /raw >}}
 
-原始的带有 Markdown 语法的内容: {{< raw >}}**Hello**{{< /raw >}}
+{{< script >}}
+console.log('Hello LoveIt!');
+{{< /script >}}
+
+This renders as {{< person "https://dillonzq.com/" Dillon "author of the LoveIt theme" >}}.
+Raw content using Markdown syntax: {{< raw >}}**Hello**{{< /raw >}}
 
 ## 13 person
 
-`person` shortcode 用来在你的文章中以 [h-card](http://microformats.org/wiki/h-card) 的格式插入个人网站链接.
+`person` is a shortcode to insert a link to a personal webpage marked up as [h-card](http://microformats.org/wiki/h-card).
 
-`person` shortcode 有以下命名参数:
+The `person` shortcode has the following named parameters:
 
-* **url** *[必需]* (**第一个**位置参数)
+* **url** *[required]* (**first** positional parameter)
 
     URL of the personal page.
 
-* **name** *[必需]* (**第二个**位置参数)
+* **name** *[required]* (**second** positional parameter)
 
     Name of the person.
 
-* **text** *[可选]* (**第三个**位置参数)
+* **text** *[optional]* (**third** positional parameter)
 
     Text to display as hover tooltip of the link.
 
-* **picture** *[可选]* (**第四个**位置参数)
+* **picture** *[optional]* (**fourth** positional parameter)
 
     A picture to use as person's avatar.
 
-* **nick** *[可选]*
+* **nick** *[optional]*
 
     Nickame of the person.
 
-一个 `person` 示例:
+Example `person` input:
 
 ```markdown
 {{</* person url="https://evgenykuznetsov.org" name="Evgeny Kuznetsov" nick="nekr0z" text="author of this shortcode" picture="https://evgenykuznetsov.org/img/avatar.jpg" */>}}
 ```
 
-呈现的输出效果为 {{< person url="https://evgenykuznetsov.org" name="Evgeny Kuznetsov" nick="nekr0z" text="author of this shortcode" picture="https://evgenykuznetsov.org/img/avatar.jpg" >}}.
+This renders as {{< person url="https://evgenykuznetsov.org" name="Evgeny Kuznetsov" nick="nekr0z" text="author of this shortcode" picture="https://evgenykuznetsov.org/img/avatar.jpg" >}}.
 
-一个使用通用图标的 `person` 示例:
+Without an explicitly given picture, a generic icon is used. This input:
 
 ```markdown
 {{</* person "https://dillonzq.com/" Dillon "author of the LoveIt theme" */>}}
 ```
 
-呈现的输出效果为 {{< person "https://dillonzq.com/" Dillon "author of the LoveIt theme" >}}.
+This renders as {{< person "https://dillonzq.com/" Dillon "author of the LoveIt theme" >}}.
 
