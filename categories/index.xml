@@ -1,23 +1,39 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - 分类 - bigbigpeng</title>
-        <link>https://bigbigpeng.github.io/categories/</link>
+        <link>https://bigbigpeng3.github.io/categories/</link>
         <description>Categories - 分类 - bigbigpeng</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>bigbigpeng3@gmail.com (bigbigpeng)</managingEditor>
-            <webMaster>bigbigpeng3@gmail.com (bigbigpeng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 13 Oct 2023 20:43:18 &#43;0800</lastBuildDate><atom:link href="https://bigbigpeng.github.io/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>文档</title>
-    <link>https://bigbigpeng.github.io/categories/documentation/</link>
+            <webMaster>bigbigpeng3@gmail.com (bigbigpeng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 13 Oct 2023 20:43:18 &#43;0800</lastBuildDate><atom:link href="https://bigbigpeng3.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>NAS</title>
+    <link>https://bigbigpeng3.github.io/categories/nas/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>bigbigpeng</author>
-    <guid>https://bigbigpeng.github.io/categories/documentation/</guid>
+    <guid>https://bigbigpeng3.github.io/categories/nas/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>生活</title>
+    <link>https://bigbigpeng3.github.io/categories/life/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>bigbigpeng</author>
+    <guid>https://bigbigpeng3.github.io/categories/life/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>文档</title>
+    <link>https://bigbigpeng3.github.io/categories/documentation/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>bigbigpeng</author>
+    <guid>https://bigbigpeng3.github.io/categories/documentation/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>一日一技</title>
-    <link>https://bigbigpeng.github.io/categories/skills/</link>
+    <link>https://bigbigpeng3.github.io/categories/skills/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>bigbigpeng</author>
-    <guid>https://bigbigpeng.github.io/categories/skills/</guid>
+    <guid>https://bigbigpeng3.github.io/categories/skills/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

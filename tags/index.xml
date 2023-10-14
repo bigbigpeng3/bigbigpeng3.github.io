@@ -1,39 +1,47 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - 标签 - bigbigpeng</title>
-        <link>https://bigbigpeng.github.io/tags/</link>
+        <link>https://bigbigpeng3.github.io/tags/</link>
         <description>Tags - 标签 - bigbigpeng</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>bigbigpeng3@gmail.com (bigbigpeng)</managingEditor>
-            <webMaster>bigbigpeng3@gmail.com (bigbigpeng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 13 Oct 2023 20:43:18 &#43;0800</lastBuildDate><atom:link href="https://bigbigpeng.github.io/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>安装</title>
-    <link>https://bigbigpeng.github.io/tags/installation/</link>
+            <webMaster>bigbigpeng3@gmail.com (bigbigpeng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 13 Oct 2023 20:43:18 &#43;0800</lastBuildDate><atom:link href="https://bigbigpeng3.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Life</title>
+    <link>https://bigbigpeng3.github.io/tags/life/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>bigbigpeng</author>
-    <guid>https://bigbigpeng.github.io/tags/installation/</guid>
+    <guid>https://bigbigpeng3.github.io/tags/life/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>安装</title>
+    <link>https://bigbigpeng3.github.io/tags/installation/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>bigbigpeng</author>
+    <guid>https://bigbigpeng3.github.io/tags/installation/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>内容</title>
-    <link>https://bigbigpeng.github.io/tags/content/</link>
+    <link>https://bigbigpeng3.github.io/tags/content/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>bigbigpeng</author>
-    <guid>https://bigbigpeng.github.io/tags/content/</guid>
+    <guid>https://bigbigpeng3.github.io/tags/content/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>配置</title>
-    <link>https://bigbigpeng.github.io/tags/configuration/</link>
+    <link>https://bigbigpeng3.github.io/tags/configuration/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>bigbigpeng</author>
-    <guid>https://bigbigpeng.github.io/tags/configuration/</guid>
+    <guid>https://bigbigpeng3.github.io/tags/configuration/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>一日一技</title>
-    <link>https://bigbigpeng.github.io/tags/skills/</link>
+    <link>https://bigbigpeng3.github.io/tags/skills/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>bigbigpeng</author>
-    <guid>https://bigbigpeng.github.io/tags/skills/</guid>
+    <guid>https://bigbigpeng3.github.io/tags/skills/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

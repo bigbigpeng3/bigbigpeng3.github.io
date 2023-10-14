@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>所有文章 - bigbigpeng</title>
-        <link>https://bigbigpeng.github.io/posts/</link>
+        <link>https://bigbigpeng3.github.io/posts/</link>
         <description>所有文章 | bigbigpeng</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>bigbigpeng3@gmail.com (bigbigpeng)</managingEditor>
-            <webMaster>bigbigpeng3@gmail.com (bigbigpeng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 13 Oct 2023 20:43:18 &#43;0800</lastBuildDate><atom:link href="https://bigbigpeng.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>bigbigpeng3@gmail.com (bigbigpeng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 13 Oct 2023 20:43:18 &#43;0800</lastBuildDate><atom:link href="https://bigbigpeng3.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>一日一技[01] iOS Android如何去广告？</title>
-    <link>https://bigbigpeng.github.io/erase_ad/</link>
+    <link>https://bigbigpeng3.github.io/erase_ad/</link>
     <pubDate>Fri, 13 Oct 2023 20:43:18 &#43;0800</pubDate>
     <author>bigbigpeng</author>
-    <guid>https://bigbigpeng.github.io/erase_ad/</guid>
+    <guid>https://bigbigpeng3.github.io/erase_ad/</guid>
     <description><![CDATA[为什么要去广告？ 手机每天打开App就是开屏广告，白白浪费人生中的几秒钟时间。进入App后还有海量广告内容等你来发现。什么？你不想看？App可]]></description>
 </item>
 </channel>

@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>文档 - 分类 - bigbigpeng</title>
-        <link>https://bigbigpeng.github.io/categories/documentation/</link>
+        <link>https://bigbigpeng3.github.io/categories/documentation/</link>
         <description>文档 - 分类 - bigbigpeng</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>bigbigpeng3@gmail.com (bigbigpeng)</managingEditor>
-            <webMaster>bigbigpeng3@gmail.com (bigbigpeng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://bigbigpeng.github.io/categories/documentation/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>bigbigpeng3@gmail.com (bigbigpeng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://bigbigpeng3.github.io/categories/documentation/" rel="self" type="application/rss+xml" /></channel>
 </rss>

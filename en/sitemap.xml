@@ -2,57 +2,75 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://bigbigpeng.github.io/en/about/</loc><lastmod>2023-04-22T20:43:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://bigbigpeng3.github.io/en/about/</loc><lastmod>2023-04-22T20:43:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://bigbigpeng.github.io/about/"
+                        href="https://bigbigpeng3.github.io/about/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bigbigpeng.github.io/en/about/"
+                    href="https://bigbigpeng3.github.io/en/about/"
                     /></url><url>
-            <loc>https://bigbigpeng.github.io/en/</loc><lastmod>2023-10-13T22:37:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bigbigpeng3.github.io/en/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://bigbigpeng.github.io/"
+                        href="https://bigbigpeng3.github.io/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bigbigpeng.github.io/en/"
+                    href="https://bigbigpeng3.github.io/en/"
                     /></url><url>
-            <loc>https://bigbigpeng.github.io/en/categories/</loc><lastmod>2023-10-13T22:37:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bigbigpeng3.github.io/en/categories/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://bigbigpeng.github.io/categories/"
+                        href="https://bigbigpeng3.github.io/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bigbigpeng.github.io/en/categories/"
+                    href="https://bigbigpeng3.github.io/en/categories/"
                     /></url><url>
-            <loc>https://bigbigpeng.github.io/en/categories/documentation/</loc><lastmod>2023-04-22T13:40:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://bigbigpeng3.github.io/en/categories/documentation/</loc><lastmod>2023-04-22T13:40:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://bigbigpeng.github.io/categories/documentation/"
+                        href="https://bigbigpeng3.github.io/categories/documentation/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bigbigpeng.github.io/en/categories/documentation/"
+                    href="https://bigbigpeng3.github.io/en/categories/documentation/"
                     /></url><url>
-            <loc>https://bigbigpeng.github.io/en/categories/skills/</loc><lastmod>2023-10-13T22:37:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bigbigpeng3.github.io/en/categories/life/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://bigbigpeng.github.io/categories/skills/"
+                        href="https://bigbigpeng3.github.io/categories/life/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bigbigpeng.github.io/en/categories/skills/"
+                    href="https://bigbigpeng3.github.io/en/categories/life/"
                     /></url><url>
-            <loc>https://bigbigpeng.github.io/en/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://bigbigpeng3.github.io/en/categories/nas/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://bigbigpeng.github.io/tags/"
+                        href="https://bigbigpeng3.github.io/categories/nas/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bigbigpeng.github.io/en/tags/"
+                    href="https://bigbigpeng3.github.io/en/categories/nas/"
+                    /></url><url>
+            <loc>https://bigbigpeng3.github.io/en/categories/skills/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bigbigpeng3.github.io/categories/skills/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bigbigpeng3.github.io/en/categories/skills/"
+                    /></url><url>
+            <loc>https://bigbigpeng3.github.io/en/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bigbigpeng3.github.io/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bigbigpeng3.github.io/en/tags/"
                     /></url></urlset>

@@ -107,7 +107,7 @@ https://github.com/gkd-kit/gkd
 
 [蓝奏云](https://lisonge.lanzouy.com/b06e1zoef) 密码: gkd
 
-
+<br/>
 
 ## 3 软路由
 
@@ -119,9 +119,13 @@ https://github.com/gkd-kit/gkd
 
 {{< /admonition >}}
 
-因为我对软路由研究不够透彻，各位同学自己找找方案吧。
+因为我对软路由研究不够透彻，各位同学自己找找方案吧。  
 
+<br/>
 
+##### 其他资料
+
+[手机电脑去广告 hosts&规则 PC&Android](https://github.com/otobtc/ADhosts)
 
 
 
