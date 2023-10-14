@@ -7,6 +7,12 @@
 
 每天打开新闻/信息流App，充斥的都是平台希望我们看到的信息，还有算法推荐，长久下去，我们会被困在信息的茧房内(也许RSS也会导致)。同时，这些平台也会给你推荐各种广告。
 
+[如何拒绝美丽新世界1](https://goldengrape.github.io/posts/bulabula/how-to-refuse-brave-new-world-part-1/)
+
+[如何拒绝美丽新世界2](https://goldengrape.github.io/posts/bulabula/how-to-refuse-brave-new-world-part-2/)
+
+[《美丽新世界》](https://zh.wikipedia.org/zh-cn/%E7%BE%8E%E9%BA%97%E6%96%B0%E4%B8%96%E7%95%8C)
+
 如果你只想看你自己关注的一些大牛，一些你感兴趣的，你想持续保持关注的一些信息源。那么就需要用到订阅性质的阅读器了。
 
 [2023 年，我又用回了 rss](https://www.v2ex.com/t/980817#reply45)
