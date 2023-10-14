@@ -4,7 +4,15 @@
         <link>https://bigbigpeng3.github.io/posts/</link>
         <description>所有文章 | bigbigpeng</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>bigbigpeng3@gmail.com (bigbigpeng)</managingEditor>
-            <webMaster>bigbigpeng3@gmail.com (bigbigpeng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 13 Oct 2023 20:43:18 &#43;0800</lastBuildDate><atom:link href="https://bigbigpeng3.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>bigbigpeng3@gmail.com (bigbigpeng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 14 Oct 2023 11:27:02 &#43;0800</lastBuildDate><atom:link href="https://bigbigpeng3.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>一日一技[02] 为什么用RSS阅读信息？</title>
+    <link>https://bigbigpeng3.github.io/why_rss/</link>
+    <pubDate>Sat, 14 Oct 2023 11:27:02 &#43;0800</pubDate>
+    <author>bigbigpeng</author>
+    <guid>https://bigbigpeng3.github.io/why_rss/</guid>
+    <description><![CDATA[为什么用RSS阅读信息？ 每天打开新闻/信息流App，充斥的都是平台希望我们看到的信息，还有算法推荐，长久下去，我们会被困在信息的茧房内(也许]]></description>
+</item>
+<item>
     <title>一日一技[01] iOS Android如何去广告？</title>
     <link>https://bigbigpeng3.github.io/erase_ad/</link>
     <pubDate>Fri, 13 Oct 2023 20:43:18 &#43;0800</pubDate>
