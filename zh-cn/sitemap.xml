@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://bigbigpeng3.github.io/</loc><lastmod>2023-10-14T17:21:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://bigbigpeng3.github.io/</loc><lastmod>2023-10-14T17:21:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://bigbigpeng3.github.io/en/"
@@ -11,7 +11,7 @@
                     hreflang="zh-cn"
                     href="https://bigbigpeng3.github.io/"
                     /></url><url>
-            <loc>https://bigbigpeng3.github.io/categories/</loc><lastmod>2023-10-14T17:21:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://bigbigpeng3.github.io/categories/</loc><lastmod>2023-10-14T17:21:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://bigbigpeng3.github.io/en/categories/"
@@ -20,8 +20,8 @@
                     hreflang="zh-cn"
                     href="https://bigbigpeng3.github.io/categories/"
                     /></url><url>
-            <loc>https://bigbigpeng3.github.io/posts/</loc><lastmod>2023-10-14T17:21:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://bigbigpeng3.github.io/tags/</loc><lastmod>2023-10-14T17:21:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://bigbigpeng3.github.io/posts/</loc><lastmod>2023-10-14T17:21:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://bigbigpeng3.github.io/tags/</loc><lastmod>2023-10-14T17:21:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://bigbigpeng3.github.io/en/tags/"
@@ -30,8 +30,8 @@
                     hreflang="zh-cn"
                     href="https://bigbigpeng3.github.io/tags/"
                     /></url><url>
-            <loc>https://bigbigpeng3.github.io/why_rss/</loc><lastmod>2023-10-14T17:21:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://bigbigpeng3.github.io/erase_ad/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://bigbigpeng3.github.io/why_rss/</loc><lastmod>2023-10-14T17:21:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://bigbigpeng3.github.io/erase_ad/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://bigbigpeng3.github.io/about/</loc><lastmod>2023-04-22T20:43:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -41,8 +41,8 @@
                     hreflang="zh-cn"
                     href="https://bigbigpeng3.github.io/about/"
                     /></url><url>
-            <loc>https://bigbigpeng3.github.io/tags/life/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://bigbigpeng3.github.io/categories/nas/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://bigbigpeng3.github.io/tags/life/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://bigbigpeng3.github.io/categories/nas/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://bigbigpeng3.github.io/en/categories/nas/"
@@ -54,7 +54,7 @@
             <loc>https://bigbigpeng3.github.io/tags/installation/</loc><lastmod>2023-04-22T13:40:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bigbigpeng3.github.io/tags/content/</loc><lastmod>2023-04-22T13:40:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bigbigpeng3.github.io/tags/configuration/</loc><lastmod>2023-04-22T13:40:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://bigbigpeng3.github.io/categories/life/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://bigbigpeng3.github.io/categories/life/</loc><lastmod>2023-10-14T10:36:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://bigbigpeng3.github.io/en/categories/life/"
